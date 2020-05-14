@@ -1,0 +1,12 @@
+.example-segment {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  max-height: 20rem;
+}
+
+.table-example-title {
+  padding-bottom: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
