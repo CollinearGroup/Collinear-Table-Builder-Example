@@ -1,12 +1,18 @@
 .example-segment {
   display: flex;
   flex-direction: column;
-  margin: 2rem;
+  margin: 2rem 4rem;
   max-height: 20rem;
 }
 
 .table-example-title {
+  font-size: 20px;
   padding-bottom: 1rem;
   font-weight: 600;
   text-decoration: underline;
+}
+
+.table-example-description {
+  padding-bottom: 0.5rem;
+  line-height: 1.2rem;
 }

@@ -48,7 +48,13 @@ function App() {
         <div className="table-example-title">
           Table With Hiding Configuration
         </div>
-        <TableWithHidingConfiguration data={mockData} />
+        <div className="table-example-description">
+          The Hiding Configuration enables the capture of the "setHidden" and
+          "onHiddenUpdate" methods. Here the "setHidden" is utilized to have the
+          "city" column initially hidden. The "onHiddenUpdate" is being utilized
+          to console.log the updated hidden columns.
+        </div>
+        <TableWithHidingConfiguration />
       </div>
       <div className="example-segment">
         <div className="table-example-title">
