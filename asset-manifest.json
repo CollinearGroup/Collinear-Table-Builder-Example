@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Collinear-Table-Builder-Example/static/css/main.69517419.chunk.css",
+    "main.js": "/Collinear-Table-Builder-Example/static/js/main.acb1e8bc.chunk.js",
+    "main.js.map": "/Collinear-Table-Builder-Example/static/js/main.acb1e8bc.chunk.js.map",
+    "runtime-main.js": "/Collinear-Table-Builder-Example/static/js/runtime-main.f16064d8.js",
+    "runtime-main.js.map": "/Collinear-Table-Builder-Example/static/js/runtime-main.f16064d8.js.map",
+    "static/js/2.5e1fca95.chunk.js": "/Collinear-Table-Builder-Example/static/js/2.5e1fca95.chunk.js",
+    "static/js/2.5e1fca95.chunk.js.map": "/Collinear-Table-Builder-Example/static/js/2.5e1fca95.chunk.js.map",
+    "index.html": "/Collinear-Table-Builder-Example/index.html",
+    "precache-manifest.99a6c10854361da6c7f1cf494a2d4234.js": "/Collinear-Table-Builder-Example/precache-manifest.99a6c10854361da6c7f1cf494a2d4234.js",
+    "service-worker.js": "/Collinear-Table-Builder-Example/service-worker.js",
+    "static/css/main.69517419.chunk.css.map": "/Collinear-Table-Builder-Example/static/css/main.69517419.chunk.css.map",
+    "static/js/2.5e1fca95.chunk.js.LICENSE.txt": "/Collinear-Table-Builder-Example/static/js/2.5e1fca95.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f16064d8.js",
+    "static/js/2.5e1fca95.chunk.js",
+    "static/css/main.69517419.chunk.css",
+    "static/js/main.acb1e8bc.chunk.js"
+  ]
+}
