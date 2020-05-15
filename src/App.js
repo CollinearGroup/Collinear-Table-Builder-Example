@@ -9,6 +9,10 @@ import {
   TableWithSorting,
   FullyEnhancedBasicTable,
 } from './basic-tables'
+import {
+  TableWithHidingConfiguration,
+  TableWithHeadingsConfiguration,
+} from './advanced-tables'
 import { createSorter } from './table-utilities'
 import { mockData } from './services/mock-data'
 
@@ -39,6 +43,18 @@ function App() {
       <div className="example-segment">
         <div className="table-example-title">Fully Enhanced Basic Table</div>
         <FullyEnhancedBasicTable data={mockData} sorter={sorter} />
+      </div>
+      <div className="example-segment">
+        <div className="table-example-title">
+          Table With Hiding Configuration
+        </div>
+        <TableWithHidingConfiguration data={mockData} />
+      </div>
+      <div className="example-segment">
+        <div className="table-example-title">
+          Table With Headings Configuration
+        </div>
+        <TableWithHeadingsConfiguration data={mockData} />
       </div>
     </div>
   )
