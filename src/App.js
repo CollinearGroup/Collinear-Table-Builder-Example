@@ -46,6 +46,12 @@ function App() {
       </div>
       <div className="example-segment">
         <div className="table-example-title">
+          Table With Headings Configuration
+        </div>
+        <TableWithHeadingsConfiguration data={mockData} />
+      </div>
+      <div className="example-segment">
+        <div className="table-example-title">
           Table With Hiding Configuration
         </div>
         <div className="table-example-description">
@@ -55,12 +61,6 @@ function App() {
           to console.log the updated hidden columns.
         </div>
         <TableWithHidingConfiguration />
-      </div>
-      <div className="example-segment">
-        <div className="table-example-title">
-          Table With Headings Configuration
-        </div>
-        <TableWithHeadingsConfiguration data={mockData} />
       </div>
     </div>
   )
