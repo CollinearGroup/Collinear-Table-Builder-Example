@@ -12,6 +12,7 @@ import {
 import {
   TableWithHidingConfiguration,
   TableWithHeadingsConfiguration,
+  TableWithFiltersConfiguration,
 } from './advanced-tables'
 import { createSorter } from './table-utilities'
 import { mockData } from './services/mock-data'
@@ -61,6 +62,12 @@ function App() {
           to console.log the updated hidden columns.
         </div>
         <TableWithHidingConfiguration />
+      </div>
+      <div className="example-segment">
+        <div className="table-example-title">
+          Table With Custom Filters Configuration
+        </div>
+        <TableWithFiltersConfiguration data={mockData} />
       </div>
     </div>
   )

@@ -1,7 +1,21 @@
-import React from 'react'
+import {
+  Table,
+  withHeadings,
+  withFiltering,
+  customFilterBuilder,
+  SelectionInput,
+  NumericalInput,
+  DateInput,
+} from '@collineargroup/collinear-table-builder'
 
-const TableWithFiltersConfiguration = () => {
-  return <div></div>
-}
+const filterComponents = customFilterBuilder
+  .add('state', SelectionInput)
+  .add('price', NumericalInput)
+  .initialValue(0)
+  .filter((a, b) => a >= b)
+  .add('last_update', DateInput)
+  .create()
 
-export default TableWithFiltersConfiguration
+export const TableWithFiltersConfiguration = withHeadings(
+  withFiltering(Table, filterComponents),
+)
