@@ -16,3 +16,36 @@
   padding-bottom: 0.5rem;
   line-height: 1.2rem;
 }
+
+.table {
+  color: black;
+  border-radius: 10px;
+}
+
+.heading-cell {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: black !important;
+  border-color: #999 !important;
+  text-transform: capitalize;
+  padding: 0.25rem 1rem !important;
+}
+
+.body-cell {
+  font-size: 14px;
+  padding: 0.5rem 1rem !important;
+  color: teal;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}

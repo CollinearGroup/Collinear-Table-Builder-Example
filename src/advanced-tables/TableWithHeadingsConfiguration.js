@@ -9,6 +9,15 @@ const configuration = {
     phone_number: 'Phone Number',
   },
   hiddenHeadings: ['last_update'],
+  customRenderCell: {
+    price: (data) => {
+      const dollars = data.toLocaleString('en-US', {
+        style: 'currency',
+        currency: 'USD',
+      })
+      return dollars
+    },
+  },
 }
 
 export const TableWithHeadingsConfiguration = buildTableWithHeadings(

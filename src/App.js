@@ -46,8 +46,27 @@ function App() {
         <FullyEnhancedBasicTable data={mockData} sorter={sorter} />
       </div>
       <div className="example-segment">
+        <div className="table-example-title">Table With Styles Injected</div>
+        <TableWithHeadings
+          data={mockData}
+          tableClassNames="table"
+          headerClassNames={[
+            'heading-cell',
+            'flex',
+            'align-center',
+            'justify-center',
+          ]}
+          bodyClassNames={[
+            'body-cell',
+            'flex',
+            'align-center',
+            'justify-center',
+          ]}
+        />
+      </div>
+      <div className="example-segment">
         <div className="table-example-title">
-          Table With Headings Configuration
+          Table With Headings Configuration (including custom cells)
         </div>
         <TableWithHeadingsConfiguration data={mockData} />
       </div>
