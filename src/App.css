@@ -22,19 +22,19 @@
   border-radius: 10px;
 }
 
-.heading-cell {
+div.heading-cell {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
-  background-color: black !important;
-  border-color: #999 !important;
+  background-color: black;
+  border-color: #999;
   text-transform: capitalize;
-  padding: 0.25rem 1rem !important;
+  padding: 0.25rem 1rem;
 }
 
-.body-cell {
+div.body-cell {
   font-size: 14px;
-  padding: 0.5rem 1rem !important;
+  padding: 0.5rem 1rem;
   color: teal;
 }
 
