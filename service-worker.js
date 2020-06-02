@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Collinear-Table-Builder-Example/precache-manifest.09f9b9df42813af2bdb348d30d30c5e2.js"
+  "/Collinear-Table-Builder-Example/precache-manifest.2592920684ecfa905b02a3687ae0dccf.js"
 );
 
 self.addEventListener('message', (event) => {
