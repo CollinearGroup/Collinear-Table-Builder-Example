@@ -11,6 +11,7 @@ import {
 } from './basic-tables'
 import {
   TableWithHidingConfiguration,
+  TableWithSortingConfiguration,
   TableWithHeadingsConfiguration,
   TableWithFiltersConfiguration,
 } from './advanced-tables'
@@ -69,6 +70,12 @@ function App() {
           Table With Headings Configuration (including custom cells)
         </div>
         <TableWithHeadingsConfiguration data={mockData} />
+      </div>
+      <div className="example-segment">
+        <div className="table-example-title">
+          Table With Sorting Configuration (Custom Sort Icons)
+        </div>
+        <TableWithSortingConfiguration data={mockData} />
       </div>
       <div className="example-segment">
         <div className="table-example-title">
