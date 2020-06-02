@@ -4,3 +4,11 @@
   right: 0;
   padding-right: 0.5rem;
 }
+
+.hide-control {
+  padding: 0 0.8rem 0 0;
+}
+
+.hide-dropdown-icon {
+  padding-left: 1rem;
+}
