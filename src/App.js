@@ -17,6 +17,7 @@ import {
 } from './advanced-tables'
 import { createSorter } from './table-utilities'
 import { mockData } from './services/mock-data'
+import '@collineargroup/collinear-table-builder/dist/base-theme.css'
 
 function App() {
   const sorter = createSorter()
@@ -50,19 +51,8 @@ function App() {
         <div className="table-example-title">Table With Styles Injected</div>
         <TableWithHeadings
           data={mockData}
-          tableClassNames="table"
-          headerClassNames={[
-            'heading-cell',
-            'flex',
-            'align-center',
-            'justify-center',
-          ]}
-          bodyClassNames={[
-            'body-cell',
-            'flex',
-            'align-center',
-            'justify-center',
-          ]}
+          tableClassNames="base-table"
+          headerClassNames={['base-header']}
         />
       </div>
       <div className="example-segment">
