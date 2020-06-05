@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './App.css'
 
 import {
@@ -17,6 +17,8 @@ import {
 } from './advanced-tables'
 import { createSorter } from './table-utilities'
 import { mockData } from './services/mock-data'
+
+import { Pagination } from '@collineargroup/collinear-table-builder'
 import '@collineargroup/collinear-table-builder/dist/base-theme.css'
 
 function App() {
@@ -84,6 +86,20 @@ function App() {
           Table With Custom Filters Configuration
         </div>
         <TableWithFiltersConfiguration data={mockData} />
+      </div>
+      <div className="example-segment">
+        <div className="table-example-title">Table With Pagination</div>
+        <Pagination>
+          {(PaginationControls, pagedDataHandler) => (
+            <Fragment>
+              <FullyEnhancedBasicTable
+                data={mockData}
+                pagedData={pagedDataHandler}
+              />
+              <PaginationControls></PaginationControls>
+            </Fragment>
+          )}
+        </Pagination>
       </div>
     </div>
   )
