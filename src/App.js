@@ -19,7 +19,7 @@ import { createSorter } from './table-utilities'
 import { mockData } from './services/mock-data'
 
 import { Pagination } from '@collineargroup/collinear-table-builder'
-import '@collineargroup/collinear-table-builder/dist/base-theme.css'
+import '@collineargroup/collinear-table-builder/dist/themes/base-theme.css'
 
 function App() {
   const sorter = createSorter()
